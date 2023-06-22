@@ -1,11 +1,11 @@
-
 body {
     margin: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
 img {
-    width: 300px;
+    width:100%;
     height: auto;
 }
 
@@ -16,10 +16,18 @@ ul {
     list-style-type: none;
 }
 
+/* outer layout setting */
+
 header, main, footer {
     margin: 0;
+    padding: 0;
+}
+
+section {
     padding: 16px 72px;
 }
+
+/* header design */
 
 header {
     display: flex;
@@ -27,15 +35,7 @@ header {
     align-items: baseline;
     background-color: #1F2937;
     color: white;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: #1F2937;
-    color: white;
-    font-size: 18px;
-    padding: 36px;
+    padding: 16px 72px;
 }
 
 header .left {
@@ -54,8 +54,44 @@ li {
     font-size: 18px;
 }
 
-
-.first {
-    display: flex;
+/* footer design */
+footer {
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    padding: 36px;
 }
 
+/* main body design: first section */
+
+.first {
+    background-color: #1F2937;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.first .left > * {
+    margin-bottom: 8px;
+}
+
+.first .left :nth-child(1) {
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.first .left :nth-child(2) {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first button {
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 6px;
+    padding: 8px 36px;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 20px;
+}
