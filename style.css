@@ -1,14 +1,55 @@
-@import url('https://fonts.cdnfonts.com/css/hero-new');
-
-html {
-    box-sizing: border-box;
-}
 
 body {
-    font-family: "Hero New", sans-serif;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 img {
     width: 300px;
     height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #1F2937;
+    margin: 0;
+    padding: 16px 72px;
+    color: white;
+}
+
+header .left {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+header .right 
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+main, footer {
+    margin: 0;
+    padding: 16px 72px;
+}
+
+.first {
+    display: flex;
 }
