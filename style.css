@@ -16,15 +16,26 @@ ul {
     list-style-type: none;
 }
 
+header, main, footer {
+    margin: 0;
+    padding: 16px 72px;
+}
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     background-color: #1F2937;
-    margin: 0;
-    padding: 16px 72px;
     color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    padding: 36px;
 }
 
 header .left {
@@ -33,7 +44,6 @@ header .left {
     font-weight: bold;
 }
 
-header .right 
 ul {
     display: flex;
     gap: 16px;
@@ -42,14 +52,10 @@ ul {
 li {
     color: #E5E7EB;
     font-size: 18px;
-    
 }
 
-main, footer {
-    margin: 0;
-    padding: 16px 72px;
-}
 
 .first {
     display: flex;
 }
+
