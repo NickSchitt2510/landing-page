@@ -97,6 +97,8 @@ footer {
     font-size: 20px;
 }
 
+/* main body design: second section */
+
 .second {
     display: flex;
     flex-direction: column;
@@ -131,3 +133,25 @@ footer {
     color: #1F2937;
     font-size: 18px;
 } 
+
+/* main body design: third section */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.third .quote {
+    font-weight: 100;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.third div {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 18px;
+}
+
