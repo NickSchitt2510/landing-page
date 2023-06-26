@@ -155,3 +155,30 @@ footer {
     font-size: 18px;
 }
 
+/* main body design: forth section */
+
+.forth {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 16px 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forth .left :nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.forth .right button {
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    padding: 8px 20px;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 16px;
+    align-self: baseline;
+}
