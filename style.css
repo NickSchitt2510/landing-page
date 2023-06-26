@@ -23,8 +23,17 @@ header, main, footer {
     padding: 0;
 }
 
-section {
-    padding: 16px 72px;
+.first {
+    padding: 72px 144px;
+}
+
+.second, .third {
+    padding: 72px 216px;
+}
+
+.forth {
+    margin: 72px 144px;
+    padding: 54px 72px;
 }
 
 /* header design */
@@ -35,7 +44,7 @@ header {
     align-items: baseline;
     background-color: #1F2937;
     color: white;
-    padding: 16px 72px;
+    padding: 16px 144px;
 }
 
 header .left {
@@ -56,11 +65,11 @@ li {
 
 /* footer design */
 footer {
-    justify-content: center;
+    text-align: center;
     background-color: #1F2937;
     color: white;
     font-size: 18px;
-    padding: 36px;
+    padding: 36px 0;
 }
 
 /* main body design: first section */
@@ -69,7 +78,10 @@ footer {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
+    align-items: center;
     gap: 24px;
+    flex: 1;
+    height: 180px;
 }
 
 .first .left > * {
@@ -85,6 +97,13 @@ footer {
 .first .left :nth-child(2) {
     font-size: 18px;
     color: #E5E7EB;
+    line-height: 1.2;
+}
+
+.first img {
+    border-radius: 8px;
+    height: 200px;
+    width: auto;
 }
 
 .first button {
@@ -102,6 +121,7 @@ footer {
 .second {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .title {
@@ -109,25 +129,31 @@ footer {
     font-weight: 800;
     color: #1F2937;
     text-align: center;
+    margin-bottom: 36px;
 }
 
 .options {
     display: flex;
     text-align: center;
-    justify-content: center;
-    gap: 32px;
+    justify-content: space-between;
+    gap: 36px;
 }
 
-
-.card {
-    width: 150px;
-    flex-wrap: wrap;
-}
 
 .card img {
     border: 4px solid #3882F6;
     border-radius: 16px;
+    max-width: 100%;
+    max-height: 100%;
 }
+
+.card {
+    width: 160px;
+    min-width: 160px;
+    height: 160px;
+    flex-wrap: wrap;
+}
+
 
 .card div {
     color: #1F2937;
@@ -147,12 +173,14 @@ footer {
     font-weight: 100;
     font-size: 24px;
     font-style: italic;
+    line-height: 1.2;
 }
 
-.third div {
+.third :nth-child(2) {
     align-self: flex-end;
     font-weight: 700;
     font-size: 18px;
+    margin-top: 16px;
 }
 
 /* main body design: forth section */
@@ -160,10 +188,10 @@ footer {
 .forth {
     background-color: #3882F6;
     color: #F9FAF8;
-    margin: 16px 32px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
 }
 
 .forth .left :nth-child(1) {
@@ -179,6 +207,6 @@ footer {
     padding: 8px 20px;
     color: #F9FAF8;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     align-self: baseline;
 }
