@@ -84,6 +84,11 @@ footer {
     height: 180px;
 }
 
+.first .left, .first .right {
+    width: 600px;
+    min-width: 400px;
+}
+
 .first .left > * {
     margin-bottom: 10px;
 }
