@@ -107,8 +107,8 @@ footer {
 
 .first img {
     border-radius: 8px;
-    height: 200px;
-    width: auto;
+    width: 400px;
+    height: auto;
 }
 
 .first button {
